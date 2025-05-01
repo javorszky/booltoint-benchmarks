@@ -23,8 +23,7 @@ func bool2intFastest(b bool) int {
 }
 ```
 
-Fun little article about compiler optimization and why this is the best: https://0x0f.
-me/blog/golang-compiler-optimization/.
+Fun little article about compiler optimization and why this is the best: https://0x0f.me/blog/golang-compiler-optimization/.
 
 The other one is using the unsafe pointer, much like the inverse square root hack, but I'm not about to introduce 
 unsafe pointers into anything without a huge performance gain. The difference between the above and the unsafe 
